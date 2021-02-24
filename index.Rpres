@@ -64,6 +64,7 @@ y <- x*x
 data <- data.frame(x, y)
 
 p <-  plot_ly(data, x=~x, y=~y, name="cuadratic", type="scatter")
+  
 
 htmlwidgets::saveWidget(p,'plotly.html')
 
